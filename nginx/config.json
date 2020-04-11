@@ -1,0 +1,21 @@
+{
+  "name": "nginx",
+  "version": "0",
+  "slug": "nginx",
+  "description": "A minimal nginx add-on",
+  "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
+  "url": "https://github.com/jackwilsdon/hassio-nginx",
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "80/tcp": null,
+    "443/tcp": null
+  },
+  "map": [ "ssl", "share" ],
+  "options": {
+    "config": null
+  },
+  "schema": {
+    "config": "str"
+  }
+}
