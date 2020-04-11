@@ -1,6 +1,6 @@
 {
   "name": "nginx",
-  "version": "0",
+  "version": "1",
   "slug": "nginx",
   "description": "A minimal nginx add-on",
   "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
